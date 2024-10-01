@@ -8,11 +8,4 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = '/blog.html';
         });
     }
-
-    if (backBtn) {
-        backBtn.addEventListener('click', function(event) {
-            event.preventDefault();
-            window.location.href = '/index.html';
-        });
-    }
 });
